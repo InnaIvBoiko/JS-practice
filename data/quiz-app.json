@@ -1,0 +1,442 @@
+[
+    {
+        "question": "What does 'undefined' mean in JavaScript?",
+        "a": "No value assigned",
+        "b": "Null value",
+        "c": "Number",
+        "d": "String",
+        "correct": "a"
+    },
+    {
+        "question": "Which of the following is a JavaScript framework?",
+        "a": "React",
+        "b": "Laravel",
+        "c": "Django",
+        "d": "Ruby on Rails",
+        "correct": "a"
+    },
+    {
+        "question": "Which company developed JavaScript?",
+        "a": "Netscape",
+        "b": "Bell Labs",
+        "c": "IBM",
+        "d": "Microsoft",
+        "correct": "a"
+    },
+    {
+        "question": "What keyword is used to declare a variable in JavaScript?",
+        "a": "var",
+        "b": "let",
+        "c": "const",
+        "d": "All of the above",
+        "correct": "d"
+    },
+    {
+        "question": "What is the output of 2 + '2' in JavaScript?",
+        "a": "22",
+        "b": "4",
+        "c": "undefined",
+        "d": "Error",
+        "correct": "a"
+    },
+    {
+        "question": "Which of the following is a loop structure in JavaScript?",
+        "a": "for",
+        "b": "while",
+        "c": "do...while",
+        "d": "All of the above",
+        "correct": "d"
+    },
+    {
+        "question": "How can you add a comment in JavaScript?",
+        "a": "// This is a comment",
+        "b": "<!-- This is a comment -->",
+        "c": "/* This is a comment */",
+        "d": "Both a and c",
+        "correct": "d"
+    },
+    {
+        "question": "What does JSON stand for?",
+        "a": "JavaScript Object Notation",
+        "b": "Java Standard Object Notation",
+        "c": "JavaScript Order Notation",
+        "d": "JavaScript Object Node",
+        "correct": "a"
+    },
+    {
+        "question": "How do you create a function in JavaScript?",
+        "a": "function myFunction()",
+        "b": "function:myFunction()",
+        "c": "create myFunction()",
+        "d": "function = myFunction()",
+        "correct": "a"
+    },
+    {
+        "question": "Which event occurs when the user clicks on an HTML element?",
+        "a": "onclick",
+        "b": "onmouseover",
+        "c": "onchange",
+        "d": "onmouseclick",
+        "correct": "a"
+    },
+    {
+        "question": "What is the correct way to write a JavaScript array?",
+        "a": "let colors = 'red', 'green', 'blue'",
+        "b": "let colors = (1:'red', 2:'green', 3:'blue')",
+        "c": "let colors = ['red', 'green', 'blue']",
+        "d": "let colors = {red, green, blue}",
+        "correct": "c"
+    },
+    {
+        "question": "Which method can be used to convert JSON to a JavaScript object?",
+        "a": "JSON.parse()",
+        "b": "JSON.stringify()",
+        "c": "JSON.decode()",
+        "d": "JSON.object()",
+        "correct": "a"
+    },
+    {
+        "question": "What will be the output of 0.1 + 0.2 === 0.3 in JavaScript?",
+        "a": "true",
+        "b": "false",
+        "c": "undefined",
+        "d": "Error",
+        "correct": "b"
+    },
+    {
+        "question": "What is a closure in JavaScript?",
+        "a": "A function containing both variables and functions",
+        "b": "A function that is defined inside another function",
+        "c": "A data structure used for storing data",
+        "d": "None of the above",
+        "correct": "b"
+    },
+    {
+        "question": "Which of the following is not a JavaScript data type?",
+        "a": "Undefined",
+        "b": "Boolean",
+        "c": "Float",
+        "d": "Number",
+        "correct": "c"
+    },
+    {
+        "question": "What does the 'this' keyword refer to in JavaScript?",
+        "a": "The global object",
+        "b": "The object from which the method was called",
+        "c": "The current function",
+        "d": "None of the above",
+        "correct": "b"
+    },
+    {
+        "question": "Which of the following is not a primitive data type in JavaScript?",
+        "a": "String",
+        "b": "Number",
+        "c": "Object",
+        "d": "Boolean",
+        "correct": "c"
+    },
+    {
+        "question": "How do you declare a constant in JavaScript?",
+        "a": "const myConstant",
+        "b": "constant myConstant",
+        "c": "let myConstant",
+        "d": "var myConstant",
+        "correct": "a"
+    },
+    {
+        "question": "Which method is used to remove the last element from an array?",
+        "a": "pop()",
+        "b": "push()",
+        "c": "shift()",
+        "d": "unshift()",
+        "correct": "a"
+    },
+    {
+        "question": "Which operator is used to assign a value to a variable?",
+        "a": "=",
+        "b": "==",
+        "c": "===",
+        "d": ":",
+        "correct": "a"
+    },
+    {
+        "question": "What is the purpose of the bind() method in JavaScript?",
+        "a": "To bind a variable to an object",
+        "b": "To create a copy of the object",
+        "c": "To schedule a function to run",
+        "d": "To create a new function with a specific context",
+        "correct": "d"
+    },
+    {
+        "question": "How can you create an object in JavaScript?",
+        "a": "let obj = {}",
+        "b": "let obj = []",
+        "c": "let obj = ()",
+        "d": "let obj = null",
+        "correct": "a"
+    },
+    {
+        "question": "What is the output of the following code: console.log(typeof NaN)?",
+        "a": "Number",
+        "b": "String",
+        "c": "Object",
+        "d": "Undefined",
+        "correct": "a"
+    },
+    {
+        "question": "Which of the following can be used to debug JavaScript code?",
+        "a": "console.log()",
+        "b": "alert()",
+        "c": "document.write()",
+        "d": "All of the above",
+        "correct": "d"
+    },
+    {
+        "question": "Which method can be used to find the length of a string?",
+        "a": "length()",
+        "b": "size()",
+        "c": "getLength()",
+        "d": "length",
+        "correct": "d"
+    },
+    {
+        "question": "What is the difference between == and === in JavaScript?",
+        "a": "There is no difference",
+        "b": "== checks value only, === checks value and type",
+        "c": "== checks type only, === checks value and type",
+        "d": "=== is used only in strict mode",
+        "correct": "b"
+    },
+    {
+        "question": "What will the following code output? console.log(1 + '1')?",
+        "a": "11",
+        "b": "2",
+        "c": "undefined",
+        "d": "Error",
+        "correct": "a"
+    },
+    {
+        "question": "What does the Array.isArray() method do?",
+        "a": "Checks if a variable is an array",
+        "b": "Creates a new array",
+        "c": "Removes the first element from an array",
+        "d": "None of the above",
+        "correct": "a"
+    },
+    {
+        "question": "In JavaScript, how do you trigger a function?",
+        "a": "functionName()",
+        "b": "function: functionName",
+        "c": "functionName",
+        "d": "call functionName()",
+        "correct": "a"
+    },
+    {
+        "question": "Which property is used to get the type of object in JavaScript?",
+        "a": "typeof",
+        "b": "instanceof",
+        "c": "class",
+        "d": "getType()",
+        "correct": "a"
+    },
+    {
+        "question": "What does Array.prototype.map() do?",
+        "a": "Creates a new array with the results of calling a function on every element",
+        "b": "Filters the array based on a condition",
+        "c": "Returns the first element of an array",
+        "d": "Sorts the array",
+        "correct": "a"
+    },
+    {
+        "question": "How do you declare a function expression in JavaScript?",
+        "a": "let myFunction = function() {}",
+        "b": "function myFunction = () => {}",
+        "c": "let myFunction() {}",
+        "d": "function: myFunction() {}",
+        "correct": "a"
+    },
+    {
+        "question": "What does the null value signify in JavaScript?",
+        "a": "An absence of value",
+        "b": "The same as undefined",
+        "c": "A string value",
+        "d": "A boolean value",
+        "correct": "a"
+    },
+    {
+        "question": "How can you concatenate two strings in JavaScript?",
+        "a": "Using + operator",
+        "b": "Using + and concat method",
+        "c": "Both a and b",
+        "d": "Using append method",
+        "correct": "c"
+    },
+    {
+        "question": "Which of the following methods can be chained?",
+        "a": "Array methods like filter and map",
+        "b": "String methods like slice and substring",
+        "c": "Both a and b",
+        "d": "No methods can be chained",
+        "correct": "c"
+    },
+    {
+        "question": "In JavaScript, what will be the output of console.log(typeof '')?",
+        "a": "String",
+        "b": "Object",
+        "c": "Undefined",
+        "d": "Error",
+        "correct": "a"
+    },
+    {
+        "question": "Which operator is used for exponentiation in JavaScript?",
+        "a": "^",
+        "b": "**",
+        "c": "exp()",
+        "d": "Math.pow()",
+        "correct": "b"
+    },
+    {
+        "question": "What does the .push() method do?",
+        "a": "Adds an element to the end of an array",
+        "b": "Removes the last element from an array",
+        "c": "Adds an element to the beginning of an array",
+        "d": "None of the above",
+        "correct": "a"
+    },
+    {
+        "question": "Which method is used to sort an array?",
+        "a": "sort()",
+        "b": "order()",
+        "c": "filter()",
+        "d": "arrange()",
+        "correct": "a"
+    },
+    {
+        "question": "What will the following code output: console.log('2' - 1)?",
+        "a": "1",
+        "b": "21",
+        "c": "0",
+        "d": "Error",
+        "correct": "a"
+    },
+    {
+        "question": "How do you access a specific element in an array?",
+        "a": "array[index]",
+        "b": "array.index",
+        "c": "array.get(index)",
+        "d": "All of the above",
+        "correct": "a"
+    },
+    {
+        "question": "Which function is used to parse a JSON string?",
+        "a": "JSON.parse()",
+        "b": "JSON.stringify()",
+        "c": "JSON.decode()",
+        "d": "JSON.parseString()",
+        "correct": "a"
+    },
+    {
+        "question": "What do the push() and pop() methods do?",
+        "a": "Add and remove elements from an array",
+        "b": "Filter and map elements of an array",
+        "c": "None of the above",
+        "d": "Both a and b",
+        "correct": "a"
+    },
+    {
+        "question": "What is the purpose of the eval() function?",
+        "a": "To execute a string of JavaScript",
+        "b": "To evaluate mathematical expressions",
+        "c": "To evaluate object properties",
+        "d": "None of the above",
+        "correct": "a"
+    },
+    {
+        "question": "What is the default value of a variable that has not been assigned a value?",
+        "a": "Null",
+        "b": "Undefined",
+        "c": "False",
+        "d": "Zero",
+        "correct": "b"
+    },
+    {
+        "question": "What does the filter() method do?",
+        "a": "Returns elements that pass a test",
+        "b": "Creates a new array with all elements that meet a condition",
+        "c": "Both a and b",
+        "d": "None of the above",
+        "correct": "c"
+    },
+    {
+        "question": "Does JavaScript support inheritance?",
+        "a": "Yes, through prototypes",
+        "b": "No",
+        "c": "Only with ES6 classes",
+        "d": "Only in strict mode",
+        "correct": "a"
+    },
+    {
+        "question": "Which of the following is not a way to create a function in JavaScript?",
+        "a": "Function declaration",
+        "b": "Function expression",
+        "c": "Class declaration",
+        "d": "Arrow function",
+        "correct": "c"
+    },
+    {
+        "question": "What is the purpose of the setTimeout() function?",
+        "a": "To delay the execution of a function",
+        "b": "To set a time interval",
+        "c": "To stop the execution of a function",
+        "d": "Both a and b",
+        "correct": "a"
+    },
+    {
+        "question": "What is event bubbling in JavaScript?",
+        "a": "When an event propagates from the target element to the root",
+        "b": "When an event propagates from the root to the target element",
+        "c": "Both a and b",
+        "d": "None of the above",
+        "correct": "a"
+    },
+    {
+        "question": "Which of the following is a correct way to handle exceptions?",
+        "a": "try...catch",
+        "b": "if...else",
+        "c": "switch",
+        "d": "None of the above",
+        "correct": "a"
+    },
+    {
+        "question": "Which statement is used to create a new object type?",
+        "a": "new Object();",
+        "b": "Object.create();",
+        "c": "function MyObject() {};",
+        "d": "All of the above",
+        "correct": "d"
+    },
+    {
+        "question": "In JavaScript, which function can be called for each element in an array?",
+        "a": "forEach()",
+        "b": "map()",
+        "c": "filter()",
+        "d": "All of the above",
+        "correct": "d"
+    },
+    {
+        "question": "What is the output of console.log(1 + '1' - 1)?",
+        "a": "1",
+        "b": "0",
+        "c": "2",
+        "d": "Error",
+        "correct": "b"
+    },
+    {
+        "question": "What does the slice() method do in an array?",
+        "a": "Returns a shallow copy of a portion of an array",
+        "b": "Adds elements to the array",
+        "c": "Removes elements from the array",
+        "d": "Sorts the array",
+        "correct": "a"
+    }
+]
