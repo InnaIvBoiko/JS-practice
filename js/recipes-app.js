@@ -90,7 +90,7 @@ const markUpMealList = (arr) => {
             <h2 class="search-result-text">${el.strMeal}</h2>
             <button type="button" class="is-favourite">
                 <i class="fa-regular fa-heart fa-xl fa-solid"
-                    style="color: #b197fc"
+                    style="color: #a0e7e5"
                 ></i>
             </button>
         </li>` :
@@ -99,7 +99,7 @@ const markUpMealList = (arr) => {
             <h2 class="search-result-text">${el.strMeal}</h2>
             <button type="button" class="is-favourite">
                 <i class="fa-regular fa-heart fa-xl"
-                    style="color: #b197fc"
+                    style="color: #a0e7e5"
                 ></i>
             </button>
         </li>`;
@@ -134,20 +134,10 @@ const markUpMeal = (data) => {
                 ${strMeal}  (${strArea})
                 <button type="button" class="is-favourite">
                     <i class="fa-regular fa-heart fa-xl"
-                    style="color: #b197fc"
+                    style="color: #a0e7e5"
                     ></i>
                 </button>
             </h3>
-            <a
-                class="link-youtube"
-                href=${strYoutube}
-                target="_blank"
-                >
-                <i
-                class="fa-solid fa-square-caret-right fa-2xl"
-                style="color: #b197fc"
-                ></i>
-            </a>
         </div>
         <div class="random-meal-info">
             <h3>
@@ -180,7 +170,7 @@ const markUpMeal = (data) => {
              >
              <i
              class="fa-solid fa-square-caret-right fa-2xl"
-             style="color: #b197fc"
+             style="color: #a0e7e5"
              ></i>
          </a>`);
     };
@@ -201,7 +191,7 @@ const markUpIngredients = (data) => {
   
         if (data[ingredient] && data[measure]) {
             htmlInfo += `<li class="ingredients-item info-text"><span class="mark">
-            <i class="fa-solid fa-check" style="color: #b197fc;"></i>
+            <i class="fa-solid fa-check" style="color: #a0e7e5;"></i>
             </span> ${data[ingredient]}  (${data[measure]})</li>`
         };
     };
@@ -227,8 +217,8 @@ searchQuery.addEventListener('submit', (event) => {
 });
 
 categoriesList.addEventListener('click', (event) => {
+    if (event.target.parentNode.parentNode.className === 'swiper-wrapper meal-categories-list'){
     const category = event.target.parentNode.innerText;
-
     getMealByCategory(category)
         .then((res) => {
             randomMeal.innerHTML = '';
@@ -238,6 +228,7 @@ categoriesList.addEventListener('click', (event) => {
             randomMeal.innerHTML = `<h3>Not found</h3>`;
             console.log(err);
         });
+    };
 });
 
 resultSearch.addEventListener('click', (event) => {
@@ -299,7 +290,7 @@ mainFavouriteBtn.addEventListener('click', () => {
                             <h2 class="search-result-text">${el.strMeal}</h2>
                             <button type="button" class="is-favourite">
                                 <i class="fa-regular fa-heart fa-xl fa-solid"
-                                    style="color: #b197fc"
+                                    style="color: #a0e7e5"
                                 ></i>
                             </button>
                         </li>`
