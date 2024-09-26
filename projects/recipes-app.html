@@ -16,16 +16,24 @@
   </head>
   <body>
     <header class="container search-wrap">
-      <input type="text" name="search" id="search" />
-      <button class="btn" type="button">
-        <i class="fa-solid fa-magnifying-glass" style="color: #b197fc"></i>
-      </button>
+      <form id="search">
+        <input type="text" name="search" class="search-input" />
+        <button class="btn" type="submit">
+          <i
+            class="fa-solid fa-magnifying-glass fa-xl"
+            style="color: #b197fc"
+          ></i>
+        </button>
+        <button type="button" id="main-favourite">
+          <i class="fa-regular fa-heart fa-2xl" style="color: #b197fc"></i>
+        </button>
+      </form>
     </header>
     <main class="container">
       <section class="meal-categories">
         <div class="swiper">
           <ul class="swiper-wrapper meal-categories-list"></ul>
-          <button class="swiper-button-next">
+          <button class="swiper-button-next" type="button">
             <i
               class="fa-solid fa-angles-right fa-xl"
               style="color: #b197fc"
@@ -33,10 +41,11 @@
           </button>
         </div>
       </section>
-      <section class="random-meal">
+      <section class="random-meal"></section>
+      <section class="search-result">
+        <ul class="search-result-list"></ul>
       </section>
     </main>
-    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="/js/recipes-app.js"></script>

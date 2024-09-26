@@ -14,7 +14,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background: rgb(63, 94, 251);
+  background: rgb(107, 131, 251);
   background: radial-gradient(
     circle,
     rgba(63, 94, 251, 1) 0%,
@@ -48,24 +48,41 @@ img {
 
 .search-wrap {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 16px;
-  position: relative;
 }
 
 #search {
-  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+.search-input {
+  padding: 12px 60px;
   width: 100%;
   border-radius: 8px;
   border: 1px solid #b197fc;
+}
+
+.search-input:focus {
+  border: 2px solid #b197fc;
+  outline-color: transparent;
+  outline-offset: -4px;
 }
 
 .btn {
   background-color: transparent;
   border: none;
   position: absolute;
-  right: 40px;
+  left: 24px;
+}
+
+#main-favourite {
+  position: absolute;
+  right: 24px;
+  background-color: transparent;
+  border: none;
 }
 
 .swiper {
@@ -127,15 +144,9 @@ img {
 }
 
 .random-meal-title {
-  background: rgb(131, 58, 180);
-  background: linear-gradient(
-    108deg,
-    rgba(131, 58, 180, 0.8) 0%,
-    rgba(253, 29, 29, 0.8) 30%,
-    rgba(252, 176, 69, 0.8) 100%
-  );
+  background-color: #fafafa;
   padding: 16px;
-  color: var(--rating);
+  color: #b197fc;
   margin: 0;
   display: flex;
   justify-content: space-between;
@@ -146,7 +157,7 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(-50%);
   color: #b197fc;
   background: linear-gradient(
     108deg,
@@ -185,4 +196,37 @@ span.info-text {
 .mark {
   margin-right: 8px;
   font-size: 14px;
+}
+
+.search-result-list {
+  padding: 0;
+}
+
+.search-result-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 24px;
+  background-color: #fafafa;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.search-result-img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 1px solid #b197fc;
+}
+
+.is-favourite {
+  background-color: transparent;
+  border: none;
+  margin-left: 16px;
+}
+
+.search-result-text {
+  margin-left: 8px;
+  margin-top: 0;
 }
