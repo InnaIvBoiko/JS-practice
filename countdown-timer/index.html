@@ -4,39 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Countdown Timer</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/css/countdown-timer.css" />
+    <link rel="stylesheet" href="countdown-timer.css" />
   </head>
   <body>
     <main>
       <section>
-        <h1>New Years Eve <span class="accent">2025</span></h1>
+        <h1>New Years Eve <span class="accent"></span></h1>
         <div class="countdown-container">
           <div class="days-container wrap">
-            <p class="big-text" id="days">000</p>
+            <p class="big-text" id="days"></p>
             <span>days</span>
           </div>
           <div class="hours-container wrap">
-            <p class="big-text" id="hours">00</p>
+            <p class="big-text" id="hours"></p>
             <span>hours</span>
           </div>
           <div class="minutes-container wrap">
-            <p class="big-text" id="minutes">00</p>
+            <p class="big-text" id="minutes"></p>
             <span>minutes</span>
           </div>
           <div class="seconds-container wrap">
-            <p class="big-text" id="seconds">00</p>
+            <p class="big-text" id="seconds"></p>
             <span>seconds</span>
           </div>
         </div>
       </section>
     </main>
 
-    <script type="module" src="/js/countdown-timer.js"></script>
+    <script type="module" src="countdown-timer.js"></script>
   </body>
 </html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon_io/site.webmanifest" />
+    <link rel="stylesheet" href="quiz-app.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="quiz-container">
+          <h2 class="title" id="question"></h2>
+          <ul>
+            <li>
+              <input type="radio" name="answer" value="a" id="a" />
+              <label for="a" id="a_text"> </label>
+            </li>
+            <li>
+              <input type="radio" name="answer" value="b" id="b" />
+              <label for="b" id="b_text"> </label>
+            </li>
+            <li>
+              <input type="radio" name="answer" value="c" id="c" />
+              <label for="c" id="c_text"> </label>
+            </li>
+            <li>
+              <input type="radio" name="answer" value="d" id="d" />
+              <label for="d" id="d_text"> </label>
+            </li>
+          </ul>
+          <button class="btn" type="submit">Next</button>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="quiz-app.js"></script>
+  </body>
+</html>

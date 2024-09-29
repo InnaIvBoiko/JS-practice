@@ -9,11 +9,12 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Poppins", sans-serif;
-  background-image: url("../img/image.png");
+  background-image: url("/countdown-timer/img/image.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
   font-size: 24px;
+  color: #001800;
 }
 
 h1 {

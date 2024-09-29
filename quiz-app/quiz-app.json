@@ -50,7 +50,7 @@
     {
         "question": "How can you add a comment in JavaScript?",
         "a": "// This is a comment",
-        "b": "<!-- This is a comment -->",
+        "b": "-- This is a comment --",
         "c": "/* This is a comment */",
         "d": "Both a and c",
         "correct": "d"

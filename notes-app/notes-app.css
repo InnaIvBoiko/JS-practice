@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/notes-app/img/bg.png");
+  margin: 0;
+  color: #0e0c18;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #fff;
+  font-size: 24px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-note {
+  width: 120px;
+  padding: 8px;
+  background-color: #9181ff;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin-top: 60px;
+  font-size: 18px;
+  transition: all 500ms linear;
+}
+
+.add-note:hover,
+.add-note:focus {
+  color: #9181ff;
+  background-color: #fff;
+  border-color: #9181ff;
+}
+
+.swiper {
+  max-width: 1440px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.notes-nav-btns {
+  position: absolute;
+  bottom: 0;
+  left: calc((100% - 100px) / 2);
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  width: 150px;
+  height: 52px;
+  padding: 0;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: transparent;
+}
+
+#notes .nav {
+  border: 1px solid #9181ff;
+  background: #fff;
+  opacity: 0.7;
+  border-radius: 50%;
+  padding: 14px;
+  width: 100px;
+  height: 52px;
+}
+
+.notes-list {
+  display: flex;
+  margin: 60px 0;
+  gap: 16px;
+  list-style: none;
+  padding: 0 16px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.notes-item {
+  position: relative;
+  box-shadow: 0 85px 102px -30px rgba(165, 147, 229, 0.2);
+  background: #fff;
+  opacity: 0.7;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 400px;
+  width: 320px;
+}
+
+.notes-header {
+  background-color: #9181ff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  color: #fff;
+}
+
+.main {
+  width: 320px;
+  height: 350px;
+  padding: 16px;
+  font-size: 16px;
+}
+
+.text {
+  border: none;
+  width: 320px;
+  height: 350px;
+  padding: 16px;
+  font-size: 16px;
+  resize: none;
+}
+
+.hidden {
+  display: none;
+}
+.text:focus {
+  outline: transparent;
+}
+
+.save {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  z-index: 999;
+}

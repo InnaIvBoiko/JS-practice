@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="notes-app.css" />
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <button type="button" class="add-note">
+          <i class="fa-solid fa-plus"></i>
+          Add note
+        </button>
+        <div class="swiper hidden">
+          <ul class="notes-list swiper-wrapper">
+            <li class="notes-item swiper-slide" id="1">
+              <div class="notes-header">
+                <button type="button" class="edit hidden">
+                  <i
+                    class="fa-regular fa-pen-to-square"
+                    style="color: #fff"
+                  ></i>
+                </button>
+                <button type="button" class="delete">
+                  <i class="fa-regular fa-trash-can" style="color: #fff"></i>
+                </button>
+              </div>
+              <div class="note-text">
+                <p class="main hidden"></p>
+                <textarea class="text" name="note" id="1"></textarea>
+              </div>
+              <button type="button" class="save">
+                <i class="fa-solid fa-check" style="color: #9181ff"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="notes-app.js"></script>
+  </body>
+</html>
